@@ -1,0 +1,44 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    margin: 10px;
+  }
+  main button {
+    margin: 5px;
+    height: 30px;
+    width: 120px;
+  }
+  #interactionResult {
+    margin: 10px;
+  }
+  
+#modalContainer {
+  position: fixed;
+  top: 10px;
+  left: calc(50vw - 150px);
+}
+  
+  #alert {
+    background-color: turquoise;
+  }
+  #alert button:hover {
+    background-color: #1eb6a7;
+  }
+  
+  #prompt {
+    background-color: lightseagreen;
+  }
+  #prompt button:hover {
+    background-color: #14716c;
+  }
+  
+  #confirm {
+    background-color: slateGrey;
+  }
+  #confirm button:hover {
+    background-color: #4e5a65;
+  }
